@@ -1,4 +1,5 @@
 - [Explore](Home.md)
 - Learn
     - [CRMC](Learn-Crmc.md)
+    - [Beheer](Beheer-Office.md)
 - [Contact](Contact.md)
