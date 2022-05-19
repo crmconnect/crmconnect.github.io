@@ -2,6 +2,7 @@ $().on('load', async e => {
   const url = new URL(document.location);
   await aim.init({
     app: {},
+    pages: {},
     uri: 'https://aliconnect.nl/api/v1.0',
     client_id: 'cac652da-dcdc-455a-a0de-e32bac08ea06',
     auth: {
@@ -10,13 +11,7 @@ $().on('load', async e => {
       scope: 'openid profile name email',
     },
     dms: {
-      uri: 'https://aliconnect.nl/api/v1.0/goodmood-nl',
+      uri: 'https://aliconnect.nl/api/v1.0',
     },
-    // ws: {
-    //   uri: 'https://aliconnect.nl:444',
-    // },
-    // sw:{
-    //
-    // }
   });
 });
